@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+/********** 共用基礎樣式 **********/
+html{
+  height: 100%;
+}
+
+body {
+  background-image: url("../../assets/images/background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  padding-top: 3.5rem;
+  font-family: Noto Sans TC;
+  word-wrap: break-word;
+  flex-direction: column;
+  overflow-y: auto;
+
+}
+
+textarea {
+  resize: none;
+}
+.dropdown-menu {
+  max-height: 480px;
+  overflow-y: auto;
+}
