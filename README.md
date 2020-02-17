@@ -1,0 +1,2 @@
+# ichat
+初次使用codeigniter將大學專題原生PHP改成MVC框架
