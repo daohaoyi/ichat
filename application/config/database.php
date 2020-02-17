@@ -77,7 +77,7 @@ $db['default'] = array(
 	'dsn'	=> 'mysql:host=localhost;dbname=ichat;charset=utf8',
 	'hostname' => 'localhost',
 	'username' => 'root',
-	'password' => '',
+	'password' => '00000',
 	'database' => '',
 	'dbdriver' => 'pdo',
 	'dbprefix' => '',
