@@ -85,7 +85,7 @@
                                 <a class="nav-link" id="Review" href="<?php echo base_url("Friend/index/review") ?>">好友審核</a>
                             </li>
                         </ul>
-                        <button type="button" class="btn btn-outline-dark my-2" data-toggle="modal" data-target="#addfriend">
+                        <button type="button" class="btn btn-outline-success my-2" data-toggle="modal" data-target="#addfriend">
                             添加好友
                         </button>
                     </div>

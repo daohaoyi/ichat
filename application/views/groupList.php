@@ -85,7 +85,7 @@
                                 <a class="nav-link" id="review" href="<?php echo base_url("Group/index/review") ?>">群組邀請</a>
                             </li>
                         </ul>
-                        <button type="button" class="btn btn-outline-dark my-2" data-toggle="modal" data-target="#addgroupModal">
+                        <button type="button" class="btn btn-outline-success my-2" data-toggle="modal" data-target="#addgroupModal">
                             創建群組
                         </button>
                     </div>
