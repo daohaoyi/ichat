@@ -17,7 +17,6 @@ body {
   word-wrap: break-word;
   flex-direction: column;
   overflow-y: auto;
-
 }
 
 textarea {
