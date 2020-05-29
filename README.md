@@ -1,2 +1,4 @@
 # ichat
-初次使用codeigniter將大學專題原生PHP改成MVC框架
+codeigniter框架 論壇+好友+群組聊天留言板
+
+使用規章
