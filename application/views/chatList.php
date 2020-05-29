@@ -104,19 +104,6 @@
                         </form>
                     </div>
                 </nav>
-                <ul class="nav bg-white">
-                    <?php $file = fopen(base_url("assets/keyword/output.csv"), "r"); ?>
-                    <?php if ($file) : ?>
-                        <?php while (($data = fgetcsv($file, 1000, ",")) !== false) : ?>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="<?php echo base_url("Chat/list/全部") . '/search?find=' . $data[0] ?>">
-                                    <?php echo "$data[0]"; ?>
-                                </a>
-                            </li>
-                        <?php endwhile; ?>
-                        <?php fclose($file); ?>
-                    <?php endif; ?>
-                </ul>
                 <div class="list-group list-group-flush" id="chatList">
                 </div>
                 <div id="chatListEnd">
