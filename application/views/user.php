@@ -12,9 +12,6 @@
                 <li class="nav-item">
                     <a class="nav-link font-weight-bold" href="<?= base_url('Signin/signup') ?>">會員註冊</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link font-weight-bold" href="<?= base_url('Signin/manager') ?>">管理員登入</a>
-                </li>
             </ul>
         </div>
     </header>
