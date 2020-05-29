@@ -74,11 +74,11 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'	=> 'mysql:host=localhost;dbname=ichat;charset=utf8',
+	'dsn'	=> 'mysql:host=localhost:3307;dbname=ichat;charset=utf8',
 	'hostname' => 'localhost',
 	'username' => 'root',
 	'password' => '00000',
-	'database' => '',
+	'database' => 'ichat',
 	'dbdriver' => 'pdo',
 	'dbprefix' => '',
 	'pconnect' => TRUE,
